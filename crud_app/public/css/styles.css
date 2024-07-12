@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+h1 {
+    color: #078d2f;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #50a15e;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Form Styles */
+form {
+    margin: 0;
+    display: inline;
+}
+
+/* Button Styles */
+button, input[type="submit"], .btn {
+    background-color: #34a055;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover, input[type="submit"]:hover, .btn:hover {
+    background-color: #3e8f69;
+}
+
+/* Link Button Styles */
+.btn-link {
+    background-color: transparent;
+    color: #92dac2;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    font-size: 1em;
+    text-decoration: underline;
+}
+
+.btn-link:hover {
+    color: #71c571;
+}
+
+/* Success Message Styles */
+div.success {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 15px;
+    border: 1px solid #c3e6cb;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Input Styles */
+input[type="text"], textarea {
+    width: calc(100% - 30px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus, textarea:focus {
+    border-color: #438546;
+    outline: none;
+}
+
+/* Label Styles */
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: inline-block;
+}
